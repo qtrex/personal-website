@@ -1,0 +1,129 @@
+
+body {
+    background-color: #e0dede;
+}
+
+h1, h3, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3.blue {
+    color: #00ADB5;
+}
+
+p {
+    color: #393E46;
+}
+
+div.body-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1.banner {
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.banner-bg {
+}
+
+.body-edit {
+    background-color: #e0dede;
+    padding: 0;
+}
+
+a.btn-outline-primary:hover {
+    color: #EEEEEE;
+    border-color: #00ADB5;
+    background-color: #00ADB5;
+}
+
+a.btn-outline-primary {
+    color: #00ADB5;
+    border-color: #00ADB5;
+    margin-bottom: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 1.5rem;
+}
+
+.copyright-spacing {
+    margin-top: 10px;
+}
+
+.footer-container {
+    background-color: #00ADB5;
+    padding: 30px 0px 30px 0px;
+}
+
+.intro {
+    padding: 30px 40px 0px 40px;
+}
+
+
+.morning {
+    background-color: #00d4ff;
+}
+
+.afternoon {
+    background-color: #00ADB5;
+}
+
+.evening {
+    background-color: #21094e;
+}
+
+.icons {
+    color: #222831;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.pro-grammer {
+    text-decoration: underline;
+}
+
+.quote-margin{
+    margin: 20px 0px 0px 0px;
+}
+
+.quote-author, .quote-content{
+    font-size: 0.6rem;
+    color: #393E46;
+}
+
+.quote-author {
+    padding-bottom: 20px;
+}
+
+.star-blink {
+    position: absolute;
+    width: 15%;
+    height: auto;
+}
+
+.transitionRule {
+    color: #00ADB5;
+    margin: 50px auto 50px auto;
+    border-style: dotted;
+    border-width: 10px;
+    border-bottom: none;
+    border-top: 10px dotted #00ADB5;
+    width: 6%;
+}
+
+.universe-edit {
+    width: 200px;
+    height: auto;
+    margin: 20px 0px 0px 10px;
+}
