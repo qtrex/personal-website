@@ -12,7 +12,7 @@ const SiteData = {
     },
     intro: {
         title: "Hello.",
-        content: "My name is Quixari Jones and I am a Software Developer/Engineer. I enjoy learning new technologies, meeting/working with new people, and solving the complex problems that arise in development with  creative code solutions."
+        content: "My name is Quixari Jones and I am a Software Developer/Engineer. I enjoy learning new technologies, meeting/working with new people, and solving complex problems with code."
     },
     portfolio: {
         title: "Portfolio Section Coming Soon!!"

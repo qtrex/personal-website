@@ -5,14 +5,18 @@ body {
 
 h1, h3, p {
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 h3.blue {
+    font-weight: 600;
     color: #00ADB5;
 }
 
 p {
-    color: #393E46;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
 }
 
 div.body-padding {
@@ -20,9 +24,9 @@ div.body-padding {
     padding-right: 0;
 }
 
-h1.banner {
+h1.banner-title-edit {
     font-family: 'Sacramento', cursive;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 600;
     padding-top: 2rem;
 }
@@ -59,6 +63,10 @@ a.btn-outline-primary {
     margin-top: 10px;
 }
 
+.definition-edit {
+    font-size: 2rem;
+}
+
 .footer-container {
     background-color: #00ADB5;
     padding: 30px 0px 30px 0px;
@@ -77,12 +85,25 @@ a.btn-outline-primary {
     background-color: #00ADB5;
 }
 
+.copyright-edit {
+    font-size: .75rem;
+}
+
 .evening {
     background-color: #21094e;
 }
 
 .icons {
     color: #222831;
+}
+
+.icon-edit {
+    margin: 0 15% 0 15%;
+    max-width: 7%;
+}
+
+.icon-row {
+    justify-content: center;
 }
 
 .icons:hover {
@@ -98,8 +119,8 @@ a.btn-outline-primary {
 }
 
 .quote-author, .quote-content{
-    font-size: 0.6rem;
-    color: #393E46;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .quote-author {
@@ -126,4 +147,91 @@ a.btn-outline-primary {
     width: 200px;
     height: auto;
     margin: 20px 0px 0px 10px;
+}
+
+@media screen and (min-width: 800px) {
+    h1.banner-title-edit {
+        font-size: 7.5rem;
+    }
+
+    h3.blue {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .icon-edit {
+        max-width: 6%;
+    }
+
+    a.btn-outline-primary {
+        padding: .7rem 5rem;
+        font-size: 1.5rem;
+    }
+
+    .copyright-edit {
+        font-size: 1rem;
+    }
+
+    .definition-edit {
+        font-size: 3.5rem;
+    }
+    
+    .universe-edit {
+        width: 400px;
+        height: auto;
+    }
+
+    .quote-author, .quote-content {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media  screen and (min-width: 1400px) {
+    h1.banner-title-edit {
+        font-size: 10.5rem;
+    }
+
+    h3.blue {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+    }
+
+    a.btn-outline-primary {
+        padding: .9rem 5rem;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    .icon-edit {
+        max-width: 5%;
+    }
+    
+    .universe-edit {
+        width: 600px;
+        height: auto;
+    }
+
+    .quote-author, .quote-content {
+        font-size: 2rem;
+    }
+}
+
+@media  screen and (min-width: 1800px) {
+    .icon-edit {
+        max-width: 4%;
+    }
+}
+
+@media  screen and (min-width: 2400px) {
+    .icon-edit {
+        max-width: 3%;
+    }
 }

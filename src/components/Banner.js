@@ -11,8 +11,8 @@ export default function Banner() {
     return (
         <div className="container-fluid body-padding">
             <div className="container-fluid banner afternoon center-text banner-bg" style={{ backgroundImage: "url('https://www.transparenttextures.com/patterns/asfalt-light.png')" }}>
-                <h1 className="center-text banner">{SiteData.banner.title}</h1>
-                    <h3 className="center-text">
+                <h1 className="center-text banner-title-edit">{SiteData.banner.title}</h1>
+                    <h3 className="center-text definition-edit">
                         <TextLoop interval={3000}>
                             <div>
                                 {SiteData.banner.content.a}
