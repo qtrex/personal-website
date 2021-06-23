@@ -149,6 +149,18 @@ a.btn-outline-primary {
     margin: 20px 0px 0px 10px;
 }
 
+@media screen and (min-width: 100px) {
+    .icon-edit {
+        max-width: 15%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .icon-edit {
+        max-width: 10%;
+    }
+}
+
 @media screen and (min-width: 800px) {
     h1.banner-title-edit {
         font-size: 7.5rem;
