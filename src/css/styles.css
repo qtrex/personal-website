@@ -31,6 +31,10 @@ h1.banner-title-edit {
     padding-top: 2rem;
 }
 
+.ant-edit {
+    max-width: 95%;
+}
+
 .banner-bg {
 }
 
@@ -112,6 +116,14 @@ a.btn-outline-primary {
 
 .pro-grammer {
     text-decoration: underline;
+}
+
+.project-container {
+    background-color: yellow;
+}
+
+.project-list-container {
+    background-color: black;
 }
 
 .quote-margin{

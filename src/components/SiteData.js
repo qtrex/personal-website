@@ -15,7 +15,19 @@ const SiteData = {
         content: "My name is Quixari Jones and I am a Software Developer/Engineer. I enjoy learning new technologies, meeting/working with new people, and solving complex problems with code."
     },
     portfolio: {
-        title: "Portfolio Section Coming Soon!!"
+        title: "Project Portfolio",
+        antGame: {
+            title: "Ant Game",
+            date: "January 2021 - April 2021",
+            synopsis: "Ant Game is a class project that is intended to teach OOP concepts by creating an interactive game written in Java.",
+            description: {
+                partOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisl a nisl dignissim posuere. Donec aliquet ultricies purus, ac consequat leo consectetur et. Fusce venenatis lorem ut lacus tristique efficitur. Morbi et tempus nulla. Nulla nec bibendum risus. Nullam pharetra leo id justo feugiat venenatis. Nunc quis suscipit augue, non pellentesque metus. Maecenas lacinia orci libero, ut congue felis egestas et. Vivamus varius tellus diam, quis feugiat dolor iaculis eu. In in massa vel dolor consectetur sagittis in sit amet mi. Cras tristique nisi in consectetur egestas. Aliquam ac urna sapien.",
+                partTwo: "Ut condimentum augue ut quam ullamcorper sodales. Donec vitae mauris sed tellus porttitor venenatis. Morbi malesuada dui lacus, quis sollicitudin felis ultricies non. Morbi convallis justo et hendrerit eleifend."
+            },
+            tech: "Java, Codename One",
+            lnk: "link-here",
+            img: "img"
+        }
     },
     contact: {
         title: "Get In Touch With Me!",
