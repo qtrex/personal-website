@@ -53,6 +53,10 @@ h1.banner-title-edit {
     border: 2px solid transparent;
 }
 
+.btn-info {
+    background-color: #00ADB5;
+}
+
 a.btn-outline-primary:hover {
     color: #EEEEEE;
     border-color: #00ADB5;
@@ -131,6 +135,10 @@ a.btn-outline-primary {
 
 .pro-grammer {
     text-decoration: underline;
+}
+
+.project-button {
+    margin-bottom: 0;
 }
 
 .project-container {

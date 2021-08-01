@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import SiteData from "./SiteData";
 import AntImg from "../images/ant.png";
 import JavaImg from "../images/java.png";
@@ -6,7 +6,21 @@ import CodenameOneImg from "../images/codenameOne.png";
 
 function Portfolio() {
 
-    const 
+    const [antProject, setAntProject] = useState(false);
+    const [blogProject, setBlogProject] = useState(false);
+
+    function setProjects(name) {
+        switch (name){
+            case "Ant":
+                setAntProject(!antProject);
+                setBlogProject(false);
+                break;
+            case "Blog":
+                setAntProject(false);
+                setBlogProject(!blogProject);
+                break;
+        }
+    }
 
     return (
         <div className="container-fluid">
@@ -22,9 +36,17 @@ function Portfolio() {
                 <hr></hr>
                 <div className="container row project-container">
                     <div className="col-9 info-container-left">
-                        <h3 className="project-name">Ant Game</h3>
-                        <p className="project-date">Date</p>
+                        <h3 className="project-name">{SiteData.portfolio.antGame.title}</h3>
+                        <p className="project-date">{SiteData.portfolio.antGame.date}</p>
                         <p className="project-syn">{SiteData.portfolio.antGame.synopsis}</p>
+
+                        <p>
+                            {antProject ? (<p>{SiteData.portfolio.antGame.description.partOne}</p>) : (<hr></hr>)}
+                            <button className="btn btn-info btn-small btn-outline-primary" onClick={() => setProjects("Ant")}>
+                                <p className="project-button">{antProject ? "See Less" : "See More"}</p>
+                            </button>
+                        </p>
+
                         <p>Technologies Used: 
                             <img className="project-ts-img" src={JavaImg}></img> 
                             <img className="project-ts-img" src={CodenameOneImg}></img>
