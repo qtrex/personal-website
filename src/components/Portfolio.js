@@ -23,6 +23,8 @@ function Portfolio() {
                 setAntProject(false);
                 setBlogProject(!blogProject);
                 break;
+            default:
+                break;
         }
     }
 
@@ -31,8 +33,13 @@ function Portfolio() {
             <h3 className="center-text blue">{SiteData.portfolio.title}</h3>
             <div className="container center-text project-list-container">
 
-                <div className="container row project-container">
-                    <div className="col-9 info-container-left">
+                <div className="container project-container grid">
+                    <div className="project-img">
+                        <a href={SiteData.portfolio.uneducatedReviews.lnk}>
+                            <img className="cinema-edit" src={CinemaImg} alt="cinema-thumbnail"></img>
+                        </a>
+                    </div>
+                    <div className="container col-9 project-text">
                         <h3 className="project-name">{SiteData.portfolio.uneducatedReviews.title}</h3>
                         <p className="project-date">{SiteData.portfolio.uneducatedReviews.date}</p>
                         <p className="project-syn">{SiteData.portfolio.uneducatedReviews.synopsis}</p>
@@ -45,19 +52,21 @@ function Portfolio() {
                         </p>
 
                         <p>Technologies Used:
-                            <img className="project-ts-img" src={WordpressImg}></img>
-                            <img className="project-ts-img" src={BluehostImg}></img>
+                            <img className="project-ts-img" src={WordpressImg} alt="wordpress-logo"></img>
+                            <img className="project-ts-img" src={BluehostImg} alt="bluehost-logo"></img>
                         </p>
                     </div>
-                    <div className="col-3 project-img-col">
-                        <a href={SiteData.portfolio.uneducatedReviews.lnk}>
-                            <img className="ant-edit" src={CinemaImg} alt="ant-image"></img>
+                </div>
+
+                <hr></hr>
+
+                <div className="container project-container grid">
+                    <div className="project-img">
+                        <a href={SiteData.portfolio.antGame.lnk}>
+                            <img className="ant-edit" src={AntImg} alt="ant-thumbnail"></img>
                         </a>
                     </div>
-                </div>
-                <hr></hr>
-                <div className="container row project-container">
-                    <div className="col-9 info-container-left">
+                    <div className="container col-9 project-text">
                         <h3 className="project-name">{SiteData.portfolio.antGame.title}</h3>
                         <p className="project-date">{SiteData.portfolio.antGame.date}</p>
                         <p className="project-syn">{SiteData.portfolio.antGame.synopsis}</p>
@@ -70,14 +79,9 @@ function Portfolio() {
                         </p>
 
                         <p>Technologies Used: 
-                            <img className="project-ts-img" src={JavaImg}></img> 
-                            <img className="project-ts-img" src={CodenameOneImg}></img>
+                            <img className="project-ts-img" src={JavaImg} alt="java-logo"></img> 
+                            <img className="project-ts-img" src={CodenameOneImg} alt="codenameone-logo"></img>
                         </p>
-                    </div>
-                    <div className="col-3 project-img-col">
-                        <a href={SiteData.portfolio.antGame.lnk}>
-                            <img className="ant-edit" src={AntImg} alt="ant-image"></img>
-                        </a>
                     </div>
                 </div>
             </div>

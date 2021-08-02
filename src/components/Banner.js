@@ -32,5 +32,4 @@ export default function Banner() {
             </div>
         </div>
     )
-    {/* <iframe src="https://giphy.com/embed/57Y7JIqvH9okJCJYjp" width="480" height="450" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */ }
 }

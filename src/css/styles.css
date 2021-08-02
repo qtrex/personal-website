@@ -32,13 +32,13 @@ h1.banner-title-edit {
 }
 
 .ant-edit {
-    max-width: 95%;
+    max-width: 30%;    
     border-radius: 50%;
     border: 10px solid #00ADB5;
 }
 
 .ant-edit:hover {
-    border-color: #6eb6b9;
+    border-color: #007bff;
 }
 
 .banner-bg {
@@ -73,6 +73,16 @@ a.btn-outline-primary {
     text-align: center;
 }
 
+.cinema-edit {
+    max-width: 30%;
+    border-radius: 50%;
+    border: 10px solid #00ADB5;
+}
+
+.cinema-edit:hover {
+    border-color: #007bff;
+}
+
 .contact-title{
     font-size: 1.5rem;
 }
@@ -96,10 +106,6 @@ a.btn-outline-primary {
 
 .github-icon:hover {
     color: white;
-}
-
-.info-container-left {
-    text-align: left;
 }
 
 .intro {
@@ -141,10 +147,6 @@ a.btn-outline-primary {
     justify-content: center;
 }
 
-.icons:hover {
-    color: white;
-}
-
 .pro-grammer {
     text-decoration: underline;
 }
@@ -157,21 +159,22 @@ a.btn-outline-primary {
     background-color: #e0dede;
     margin: 0;
     padding: 1rem 0 1rem 0;
-    border-radius: 8%;
+    border-radius: 30px;
 }
 
 .project-date {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-top: 10px;
 }
 
-.project-img-col {
-    padding-top: 8%;
+.project-img {
+    padding-top: 2%;
 }
+
 
 .project-list-container {
     background-color: #00ADB5;
-    border-radius: 5%;
+    border-radius: 40px;
     padding: 2rem 2rem 2rem 2rem;
 }
 
@@ -179,15 +182,19 @@ a.btn-outline-primary {
     color: #00ADB5;
     font-weight: 600;
     padding-top: 1rem;
-    font-size: 3.5rem;
+    font-size: 1.4rem;
 }
 
 .project-syn {
     margin-top: 0;
 }
 
+.project-text {
+    text-align: center;
+}
+
 .project-ts-img {
-    width: 100px;
+    width: 65px;
     margin-left: 10px;
 }
 
@@ -229,22 +236,46 @@ a.btn-outline-primary {
 @media screen and (min-width: 100px) {
     .icon-edit {
         max-width: 15%;
+        margin: 0 5% 0 5%;
     }
 }
 
 @media screen and (min-width: 500px) {
+
+    h3.blue {
+        padding-bottom: 2rem;
+    }
+
+    .ant-edit {
+        max-width: 90%;
+    }
+
     .icon-edit {
         max-width: 10%;
     }
+
+    .cinema-edit {
+        max-width: 30%;
+    }
+
+    .project-ts-img {
+        width: 75px;    
+    }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
+    div.project-img {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    
     h1.banner-title-edit {
         font-size: 7.5rem;
     }
 
     h3.blue {
         font-size: 4rem;
+        padding-bottom: 2.5rem;
     }
 
     p {
@@ -273,10 +304,40 @@ a.btn-outline-primary {
         height: auto;
     }
 
+    .project-name {
+        font-size: 3rem;
+    }
+
+    .project-text {
+        padding-left: 1.5rem;
+    }
+
     .quote-author, .quote-content {
         font-size: 1.5rem;
     }
 
+}
+
+@media screen and (min-width: 990px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1.6fr .35fr;
+        grid-column-gap: .5em;
+        grid-auto-columns: auto;
+    }
+
+    .col-9 {
+        max-width: 100%;
+    }
+
+    .cinema-edit {
+        max-width: 90%;
+    }
+
+    .project-text {
+        text-align: left;
+        padding-left: 2rem;
+    }
 }
 
 @media  screen and (min-width: 1400px) {
@@ -290,7 +351,7 @@ a.btn-outline-primary {
 
     p {
         font-size: 1.8rem;
-        margin-top: 2.5rem;
+        margin-top: 1.25rem;
     }
 
     a.btn-outline-primary {
@@ -307,6 +368,14 @@ a.btn-outline-primary {
         width: 600px;
         height: auto;
     }
+
+    .project-date {
+        font-size: 1.2rem;
+    }
+
+    .project-name {
+    font-size: 3rem;    
+}
 
     .quote-author, .quote-content {
         font-size: 2rem;

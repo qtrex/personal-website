@@ -3,7 +3,6 @@ import Scripts from "./sections/Scripts";
 import ContactMe from "./ContactMe";
 import Portfolio from "./Portfolio";
 import Banner from "./Banner";
-import Quote from "./Quote";
 import Intro from "./Intro";
 
 function Body() {
