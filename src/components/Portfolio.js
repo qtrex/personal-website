@@ -46,9 +46,6 @@ function Portfolio() {
 
                         <p>
                             {blogProject ? (<p>{SiteData.portfolio.uneducatedReviews.description}</p>) : (<hr></hr>)}
-                            <button className="btn btn-info btn-small btn-outline-primary" onClick={() => setProjects("Blog")}>
-                                <p className="project-button">{antProject ? "See Less" : "See More"}</p>
-                            </button>
                         </p>
 
                         <p>Technologies Used:

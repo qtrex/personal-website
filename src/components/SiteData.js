@@ -18,10 +18,10 @@ const SiteData = {
         title: "Project Portfolio",
         antGame: {
             title: "Ant Game",
-            date: "January 2021 - April 2021",
-            synopsis: "Ant Game is a class project that is intended to teach OOP concepts by creating an interactive game written in Java.",
+            date: "February 2021 - April 2021",
+            synopsis: "Java-based game built with the Codename One framework, following best practice and implementing multiple software design patterns.",
             description: {
-                partOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisl a nisl dignissim posuere. Donec aliquet ultricies purus, ac consequat leo consectetur et. Fusce venenatis lorem ut lacus tristique efficitur. Morbi et tempus nulla. Nulla nec bibendum risus. Nullam pharetra leo id justo feugiat venenatis. Nunc quis suscipit augue, non pellentesque metus. Maecenas lacinia orci libero, ut congue felis egestas et. Vivamus varius tellus diam, quis feugiat dolor iaculis eu. In in massa vel dolor consectetur sagittis in sit amet mi. Cras tristique nisi in consectetur egestas. Aliquam ac urna sapien.",
+                partOne: "Ant game utilizes Object-oriented programming concepts to improve code readability, reusability, and cleanliness. Core OOP concepts incorporated into Ant Game include abstraction, polymorphism, inheritance, and encapsuation. The rules of Ant Game is to avoid spiders, collect food, and reach the flags to win. The game supports key commands, GUI commands, and uses coordinates to display game elements on screen. Key and GUI commands are created using the command design pattern. The iterator design pattern is used to loop through game elements stroed in a collection. Observer and observable design patterns are utilized to implement the collision detection system.",
                 partTwo: "Ut condimentum augue ut quam ullamcorper sodales. Donec vitae mauris sed tellus porttitor venenatis. Morbi malesuada dui lacus, quis sollicitudin felis ultricies non. Morbi convallis justo et hendrerit eleifend."
             },
             tech: "Java, Codename One",
@@ -30,8 +30,8 @@ const SiteData = {
         uneducatedReviews: {
             title: "Uneducated Reviews",
             date: "July 2021 - Current",
-            synopsis: "Uneducated Reviews is an online movie review blog, I created the site using Wordpress and Bluehost",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisl a nisl dignissim posuere. Donec aliquet ultricies purus, ac consequat leo consectetur et. Fusce venenatis lorem ut lacus tristique efficitur. Morbi et tempus nulla. Nulla nec bibendum risus. Nullam pharetra leo id justo feugiat venenatis. Nunc quis suscipit augue, non pellentesque metus. Maecenas lacinia orci libero, ut congue felis egestas et. Vivamus varius tellus diam, quis feugiat dolor iaculis eu. In in massa vel dolor consectetur sagittis in sit amet mi. Cras tristique nisi in consectetur egestas. Aliquam ac urna sapien.",
+            synopsis: "Uneducated Reviews is an online movie review blog made for a client, I created then hosted the site using Wordpress and Bluehost.",
+            description: "tbd",
             tech: "Wordpress, Bluehost",
             lnk: "https://uneducatedreviews.com/"
         }
