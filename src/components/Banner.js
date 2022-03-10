@@ -6,9 +6,8 @@ import Star from "../images/star-blink.gif";
 import TextLoop from "react-text-loop";
 
 export default function Banner() {
-    //var time = new Date().getHours();
-
     return (
+        /* Returns banner portion of webpage */
         <div className="container-fluid body-padding">
             <div className="container-fluid banner afternoon center-text banner-bg" style={{ backgroundImage: "url('https://www.transparenttextures.com/patterns/asfalt-light.png')" }}>
                 <h1 className="center-text banner-title-edit">{SiteData.banner.title}</h1>

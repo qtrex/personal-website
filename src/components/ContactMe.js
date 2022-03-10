@@ -3,6 +3,7 @@ import SiteData from "./SiteData";
 
 function ContactMe() {
     return (
+        /* Returns contact me portion of webpage */
         <div className="container center-text">
 
             <h3 className="contact-title blue">{SiteData.contact.title}</h3>

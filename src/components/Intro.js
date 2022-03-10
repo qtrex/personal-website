@@ -3,6 +3,7 @@ import SiteData from "./SiteData";
 
 function Intro() {
     return (
+        /* Returns intro portion of webpage */
         <div className="container center-text intro">
             <div className="row justify-content-md-center">
                 <div className="col">

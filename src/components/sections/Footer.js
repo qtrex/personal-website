@@ -2,12 +2,12 @@ import React from "react";
 
 function Footer() {
 
+    /* Stores the year in variable for footer */
     const currentYear = new Date().getFullYear();
 
     return (
-
+        /* Returns the entire footer */
         <div className="container-fluid center-text ">
-
             <div className="row icon-row">
                 <div className="col icon-edit">
                     <a className="nav_item icons" href="https://www.linkedin.com/in/quixari-jones-2127971b0/">

@@ -7,6 +7,7 @@ import Intro from "./Intro";
 
 function Body() {
     return (
+        /* Returns the body of the webpage */
         <div className="container-fluid body-padding">
             <Banner />
 

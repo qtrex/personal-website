@@ -10,9 +10,11 @@ import BluehostImg from "../images/bluehost.png";
 
 function Portfolio() {
 
+    /* UseState boolean variables used to toggle the visibility of "see more" section of portfolio */
     const [antProject, setAntProject] = useState(false);
     const [blogProject, setBlogProject] = useState(false);
 
+    /* Use state function to toggle the "see more" section of portfolio */
     function setProjects(name) {
         switch (name){
             case "Ant":
@@ -29,6 +31,7 @@ function Portfolio() {
     }
 
     return (
+        /* Returns portfolio section of webpage*/
         <div className="container-fluid">
             <h3 className="center-text blue">{SiteData.portfolio.title}</h3>
             <div className="container center-text project-list-container">
